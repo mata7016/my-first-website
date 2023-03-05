@@ -1,0 +1,1 @@
+<p >Mi Vam pružamo 10 personalnih trenera sa visokim kvalitetom i visokim završenim školama</p>

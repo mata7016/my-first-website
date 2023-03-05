@@ -1,0 +1,788 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: "Gill Sans", sans-serif;
+	font-weight: bold;
+
+}
+
+.page {
+	width: 100%;
+	height: 100vh;
+
+}
+
+.navbar {
+	width: 100%;
+	top: 0;
+	position: absolute;
+	display: flex;
+}
+
+.ceo {
+	width: 100%;
+	display: flex;
+}
+
+.deo {
+	flex-grow: 1;
+}
+
+#pocetna {
+	margin: 0;
+	background: url("slike/gym.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+a {
+	text-decoration: none;
+	color: #E3E3E3;
+	transition: 0.5s;
+}
+
+.blur {
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	background-color: rgba(0, 0, 0, 80%);
+
+}
+
+
+.nav {
+	flex-grow: 2;
+	padding-top: 4%;
+
+}
+
+.pocetna {
+	color: #F79021;
+
+}
+
+nav {
+	animation: nav 2s ease;
+	visibility: visible;
+	display: flex;
+	flex-grow: 2;
+	font-size: 25px;
+	display: flex;
+	text-align: center;
+	padding: 0 8%;
+}
+
+nav a {
+	font-family: 'BlinkMacSystemFont';
+	letter-spacing: 3px;
+	flex-grow: 1;
+	text-align: center;
+	font-weight: normal;
+}
+
+.kontakt-stranice {
+	animation: kontakt 2s ease-out;
+	visibility: visible;
+	display: flex;
+	justify-content: start;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding-left: 1%;
+	padding-bottom: 1%;
+}
+
+.kontakt-stranice a {
+	padding-right: 16%;
+
+
+}
+
+
+
+.kontakt-stranice a img {
+	width: 25px;
+	height: 25px;
+}
+
+
+nav a:hover {
+	color: #F79021;
+}
+ 
+.radno-vreme {
+
+}
+
+.blog {
+	animation: blog 2s ease;
+	visibility: visible;
+	margin-top: 4%;
+	margin-right: 8%;
+	color: #F79021;
+	font-weight: bold;
+}
+
+.blog a {
+	font-size: 25px;
+	font-weight: bold;
+	font-family: ;
+	padding: 20% 40%;
+	color: #F79021;
+	border: 4px solid #F79021;
+}
+
+.blog a:hover {
+	background-color: #F79021;
+	color: white;
+}
+
+.dugme a:hover {
+	background-color: #F79021;
+	color: white;
+}
+
+.blur {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.glavno {
+	text-align: center;
+	position: absolute;
+	color: white;
+}
+
+h1 {
+	color: #38373C;
+	font-size: 5.2rem;
+	font-weight: bold;
+	margin: 0;
+	margin-top: -10px;
+	letter-spacing: 4px;
+}
+
+h3 {
+	letter-spacing: 9.2px;
+	font-size: 2rem;
+	font-weight: bold;
+	margin: 0;
+}
+
+.glavno p {
+	font-size: 25px;
+	font-weight: bold;
+	margin: 0;
+}
+
+h1 span {
+	font-family: cursive;
+	color: #F79021;
+}
+
+.glavno p {
+	animation: text 2s ease;
+	visibility: visible;
+	font-size: 25px;
+	letter-spacing: 2px;
+	color: #E3E3E3;
+	margin-bottom: 80px;
+	text-transform: uppercase;
+}
+
+
+.naslov {
+	animation: naslov 2s ease;
+	visibility: visible;
+	display: flex;
+	margin: 170px;
+	
+}
+
+.dugme a {
+	animation: zakazi ease-out;
+	visibility: visible;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 3% 3%;
+	color: #F79021;
+	border: 6px solid #F79021;
+	border-radius: 45px;
+}
+
+a::selection {
+	color: #38373C;
+	background-color: #F79021;
+}
+
+p::selection {
+	color: #38373C;
+	background-color: #F79021;
+}
+
+h1::selection {
+	color: #38373C;
+	background-color: #F79021;
+}
+
+h3::selection {
+	color: #38373C;
+	background-color: #F79021;
+}
+
+span::selection {
+	color: #38373C;
+	background-color: #F79021;
+}
+
+iframe::selection {
+	color: #38373C;
+	background-color: #F79021;
+}
+
+
+.kontakt-stranice a img::selection {
+	color: #38373C;
+	background-color: #F79021;
+}
+
+td::selection {
+	color: #38373C;
+	background-color: #F79021;
+}
+
+th::selection {
+	color: #38373C;
+	background-color: #F79021;
+}
+
+figcaption::selection {
+	color: #38373C;
+	background-color: #F79021;
+}
+
+img::selection {
+	color: #38373C;
+	background-color: #F79021;
+}
+
+
+
+
+#o-nama h1 {
+	font-family: '"Segoe UI Emoji"';
+	text-transform: uppercase;
+	opacity: 1;
+	padding-top: 5%;
+	font-size: 80px;
+	color: #E3E3E3;
+	text-align: center;
+	
+}
+
+.o-nama-text {
+	position: absolute;
+	text-align: center;
+	padding: 2% 7%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.o-nama-text p {
+	color: #E3E3E3;
+	font-size: 17px;
+	letter-spacing: 1px;
+	font-weight: normal;
+}
+
+.o-nama-blur {
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	background-color: #0C0C0D;
+}
+
+.text2 {
+	margin: 5px;
+}
+
+.o-nama-krugovi {
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	width: 80%;
+	margin: 15% 10%;
+	justify-content: center;
+
+}
+
+
+.krug {
+	background-color: #F79021;
+	color: white;
+	display: inline-block;
+	padding: 15%;
+	font-size: 50px;
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	text-align: center;
+	align-items: baseline;
+}
+
+.krug p {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	transition: 1s;
+}
+
+.o-nama-krugovi .opis {
+	color: white;
+	font-size: 25px;
+	margin: 7% 0;
+	letter-spacing: 3px;
+}
+
+.info {
+	position: relative;
+	flex-grow: 1;
+	margin: 0;
+	text-align: center;
+}
+
+.prostor {
+	font-size: 37px;
+}
+
+.jump {
+	transition: 100ms;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	width: 80%;
+	bottom: 7%;
+	position: absolute;
+	margin: 0 10%;
+}
+
+.slika {
+	width: 7%;
+	height: 12%;
+	position: absolute;
+	right: 2%;
+	top: 5%;
+}
+
+.slika-2 {
+	width: 7%;
+	height: 12%;
+	position: absolute;
+	left: 2%;
+	bottom: 5%;
+}
+
+.jump a:hover {
+	color: #F79021;
+	text-decoration: underline;
+}
+
+
+
+
+#motivacioni-citat {
+	background-color: #0C0C0D;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.motivacioni-text {
+	width: 70%;
+}
+
+.motivacioni-text p, .motivacioni-text figcaption {
+	text-align: center;
+	color: #E3E3E3;
+	font-size: 60px;
+}
+
+.motivacioni-text figcaption {
+	font-weight: normal;
+	font-style: italic;
+	font-family: 'BlinkMacSystemFont';
+}
+
+.motivacioni-text p {
+	font-family: '"Helvetica Neue"';
+}
+
+#raspored-treninga {
+	background-color: #E3E3E3;
+
+}
+
+
+table {
+	width: 90%;
+	height: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3%;
+	text-align: center;
+	color: #E3E3E3;
+	background-color: rgb(32, 32, 32);
+	border-collapse: collapse;
+}
+
+table th {
+	padding: 20px;
+	border: 1px solid #ddd;
+	font-size: 30px;
+}
+
+table td {
+	padding: 15px;
+	border: 1px solid #ddd;
+	font-size: 20px;
+}
+
+.tabela-naslov h1 {
+	font-weight: bold;
+	font-family: '"Segoe UI Emoji"';
+	text-transform: uppercase;
+	color: #0C0C0D;
+	font-size: 60px;	
+}
+
+.tabela-naslov {
+	text-align: center;
+	padding-top: 4%;
+}
+
+.posebno p{
+	margin: 10px;
+	margin: 0;
+}
+
+.posebno a{
+	padding: 10px;
+}
+
+.power-fit {
+	background-color: #F79021;
+}
+
+.insanity {
+	background-color: #F79021;
+}
+
+.strong-nation {background-color: #F79021}
+
+.funkcionalni-fitnes {background-color: #F79021}
+
+.military-bootcamp {background-color: #F79021}
+
+.raspored-treninga-text p a {
+	color: #F79021;
+	transition: 0.1s;
+}
+
+.raspored-treninga-text {
+	text-align: center;
+	font-size: 30px;
+}
+
+.raspored-treninga-text p a:hover {
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+#cenovnik {
+	background: url("slike/teretana3.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+
+.cenovnik-naslov {
+	flex-grow: 1;
+	height: 100%;
+}
+
+.cenovnik-slika img {
+	margin-left: 15%;
+	width: 60%;
+	height: 90%;
+	box-shadow:
+    3.6px 2.7px 2.4px rgba(0, 0, 0, 0.136),
+    7.4px 5.5px 5.4px rgba(0, 0, 0, 0.194),
+    11.8px 8.8px 9.1px rgba(0, 0, 0, 0.237),
+    17.2px 12.8px 13.9px rgba(0, 0, 0, 0.272),
+    24.1px 18px 20.2px rgba(0, 0, 0, 0.3),
+    33.9px 25.3px 29.1px rgba(0, 0, 0, 0.322),
+    48.6px 36.3px 42.1px rgba(0, 0, 0, 0.338),
+    72.8px 54.4px 62.6px rgba(0, 0, 0, 0.345),
+    119.8px 89.5px 97.2px rgba(0, 0, 0, 0.339),
+    284px 212px 155px rgba(0, 0, 0, 0.26)
+}
+
+.cenovnik-slika {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-grow: 1;
+	height: 100%;
+}
+
+.blur-cenovnik {
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	background-color: rgba(0, 0, 0, 60%);
+}
+
+
+.sve {
+	text-align: center;
+}
+
+
+
+
+#kontakt {
+	background-color: #0C0C0D;
+}
+
+#kontakt h1 {
+	font-family: '"Segoe UI Emoji"';
+	text-transform: uppercase;
+	padding-top: 3%;
+	color: #E3E3E3;
+}
+
+.lokacija {
+	border: 5px solid #F79021;
+}
+
+.container {
+	padding-top: 3%;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.serbia {
+	padding-left: 8%;
+}
+
+.aleksandar {
+	padding-right: 8%;
+}
+
+.lokacija-sve {
+	display: flex;
+}
+
+.dodatak {
+	padding-top: 3%;
+}
+
+.dodatak p {
+	color: white;
+}
+
+.icon-lokacija {
+	padding-top: 2%;
+	padding-left: 2%;
+	width: 40px;
+	height: 40px;
+}
+
+.icon-lokacija img {
+	width: 100%;
+	height: 100%;
+}
+
+.icon-radno-vreme {
+	width: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.icon-radno-vreme img {
+	width: 100%;
+	height: 100%;
+}
+
+.lokacija-text {
+	padding-left: 1%;
+	color: #E3E3E3;
+	letter-spacing: 1px;
+	font-size: 18px;
+}
+
+.lokacija-text p {
+	text-align: left;
+}
+
+.radno-vreme-text {
+	padding-left: 2%;
+	letter-spacing: 1px;
+	color: #E3E3E3;
+	letter-spacing: 1px;
+	font-size: 18px;
+}
+
+.radno-vreme-text p {
+	text-align: left;
+	margin: 0;
+	padding-top: 4px;
+}
+
+.radno-vreme-sve {
+	display: flex;
+}
+
+.telefon-sve {
+	display: flex;
+}
+
+.icon-telefon {
+	padding-top: 1%;
+	padding-left: 2%;
+	width: 35px;
+	height: 35px;
+}
+
+.icon-telefon img {
+	width: 100%;
+	height: 100%;
+}
+
+.telefon-text {
+	font-size: 18px;
+	padding-left: 3%;
+}
+
+
+
+
+
+
+
+
+#footer {
+	border-top: 3px solid #F79021;
+	background-color: black;
+	display: flex;
+}
+
+.column {
+	flex-grow: 1;
+	flex-basis: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	padding-top: 20px;
+}
+
+.left {
+	text-align: left;
+	padding: 2%;
+}
+
+#footer h1 {
+	letter-spacing: 3px;
+	font-size: 25px;
+	color: #E3E3E3;
+}
+
+.left h1 {
+	text-transform: uppercase;
+}
+
+#footer a {
+	color: #F79021;
+	padding-top: 1%;
+	font-size: 25px;
+}
+
+.left a:hover {
+	color: #E3E3E3;
+}
+
+.center {
+	padding-top: 2%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.center h1 {
+	font-size: 30px;
+}
+
+.center a {
+
+}
+
+#footer a:hover {
+	color: #E3E3E3;
+}
+
+.right {
+	padding-right: 3%;
+	display: flex;
+	justify-content: center;
+	text-align: right;
+
+}
+
+.right a {
+	padding-right: 2%;
+	text-align: left;
+}
+
+.right h1 {
+	font-size: 30px;
+	text-transform: none;
+}
+
+.footer-kontakt img {
+	width: 30px;
+	height: 30px;
+}
+
+.footer-kontakt {
+	padding-top: 2%;
+}
+
+#footer p {
+	letter-spacing: 2px;
+	color: #E3E3E3;
+	font-size: 20px;
+}
